@@ -1,0 +1,81 @@
+
+li[data-v-98bc806a] {
+    display: inline-block;
+    width: 20%;
+    border: none;
+}
+
+.row-body {
+    overflow:hidden;
+}
+
+/* checkbox */
+.sm_flex[data-v-55ca7f47] {
+    display:none;
+}
+
+/* tags */
+.col-span-1[data-v-647a515e] {
+    display: none;
+}
+
+a.list-row > .flex {
+    display:block;
+}
+
+.lg_grid {
+    display:block;
+}
+
+/* date of chapter */
+.chapter-meta[data-v-647a515e],
+.items-end {
+    display:inline-flex;
+}
+/* calendar icon */
+.chapter-meta[data-v-647a515e] > svg {
+    display:none;
+}
+/* date of chapter */
+.col-span-2[data-v-647a515e] {
+    display: ruby;
+}
+
+/* unread blue indicator */
+.unread-indicator-ping[data-v-1c1ae4b5],
+.unread-indicator[data-v-1c1ae4b5] {
+    display:none;
+}
+
+/* chapters */
+li[data-v-98bc806a] > a > div,
+li[data-v-98bc806a] > a > div > div > div {
+    padding: 0;
+    padding-bottom: 1em;
+}
+
+.cover {
+    height: 20em;
+    width: auto;
+    border-radius: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    /* center image */
+    margin-left:auto;
+    margin-right: auto;
+    /* grayout */
+    filter: grayscale(70%);
+    opacity: 0.6;
+}
+
+/* no grayout if has unread chapters */
+li:has(.unread-indicator-ping[data-v-1c1ae4b5]) > .cover {
+    filter: none;
+    opacity: 1;
+}
+
+/* no boarder on top or bottom of list */
+.the-dashboard-header,
+.the-dashboard-footer {
+    border: none;
+}

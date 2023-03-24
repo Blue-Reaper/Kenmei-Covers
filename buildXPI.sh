@@ -1,0 +1,1 @@
+zip -r -FS ../kenmei-covers.xpi * -x buildXPI.sh changelog.txt

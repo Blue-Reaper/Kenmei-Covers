@@ -1,0 +1,23 @@
+Testlogin:
+User: dmuhkcwlhdvkiwikcz@tcwlm.com
+PW: pkfVFZvY625s78U
+
+0.3 add cover for: luminousscans.com, reset-sans.com
+0.4 remove sites with broken covers
+    currently supported covers:
+        mangahub
+        asurascans
+        flamescans
+        luminousscans
+        tapas
+    not working covers:
+        realmscans
+        mangadex
+        leviatanscans
+        zeroscans
+        reaperscans
+        reset-scans
+        lhtranslation
+        gdscans
+        mangasushi
+        tritinia
